@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import StaticHeader from "../components/header";
 import EmployeeList from "../components/employees";
-import StickyFooter from "../components/footer";
 
 function Directory() {
   const [filter, setFilter] = useState(null);
@@ -46,7 +45,6 @@ function Directory() {
         handleInputChange={handleInputChange}
       />
       <EmployeeList />
-      <StickyFooter />
     </div>
   );
 }
