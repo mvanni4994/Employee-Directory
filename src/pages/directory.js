@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import StaticHeader from "../components/header";
-
 import EmployeeList from "../components/employees";
 import StickyFooter from "../components/footer";
 
